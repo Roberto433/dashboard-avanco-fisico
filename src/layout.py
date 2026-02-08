@@ -36,11 +36,11 @@ def build_layout():
                                 children=[
                                     html.Img(src="/assets/logo.png", className="logo-img"),
                                     html.H2("Dashboard — Avanço Físico (KG)", className="title"),
-                                ],
+                        ],
+                    ),
+                    html.Div(id="load-status", className="subtitle"),
+                ],
             ),
-        html.Div(id="load-status", className="subtitle"),
-    ],
-),
                     html.Div(
                         className="topbar-right",
                         children=[
@@ -167,3 +167,4 @@ def build_layout():
             ),
         ],
     )
+
