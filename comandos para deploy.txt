@@ -1,0 +1,28 @@
+Comandos para depoy abaixo:
+git add .
+git commit -m "Atualiza base e ajustes"<<<< obs:das alteracões
+git push
+
+pip install -r requirements.txt
+Rodar o código >>python app.py
+
+Windows (PowerShell)
+Criar ambiente virtual>> python -m venv .venv
+
+Ativar ambiente virtual>> .\.venv\Scripts\Activate.ps1
+
+Windows (cmd)
+Criar ambiente virtual>> python -m venv .venv
+
+Ativar ambiente virtual>> .\.venv\Scripts\activate
+
+Excluir ambiente virtual>> rmdir /s /q .venv
+
+Se der erro de política de execução (ExecutionPolicy), rode:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+
+
+
+
