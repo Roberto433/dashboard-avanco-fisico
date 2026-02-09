@@ -1,6 +1,7 @@
 Comandos para depoy abaixo:
 git add .
-git commit -m "Atualiza base e ajustes"<<<< obs:das alteracões
+git commit -m "Atualizar base de dados"<<<< obs:das alteracões
+git status
 git push
 
 pip install -r requirements.txt
